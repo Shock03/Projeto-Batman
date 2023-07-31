@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+width: 60%;
+}
+
+ul {
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+
+li {
+list-style: none;
+color: aliceblue;
+cursor: pointer;
+font-size: 19px;
+transition: .5s;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color:red
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color:#fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+.image-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,400px);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.image-1 {
+    background-image: url('https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg');
+}
+.image-2 {
+    background-image: url('https://variety.com/wp-content/uploads/2022/03/MCDBATM_WB080.jpg?w=1000&h=563&crop=1');
+}
+.image-3 {
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121730/batman-2022-tudo-o-que-precisa-saber-antes-de-ver-o-filme.jpg');
+}
+.image-4 {
+    background-image: url('https://clubdofilme.com.br/wp-content/uploads/2022/03/Capa-1170x780.jpg');
+}
+.image-5 {
+    background-image: url('https://static.wikia.nocookie.net/universo-batman/images/a/ac/P%C3%B4ster_de_%27Batman%27.jpg/revision/latest?cb=20220307110904&path-prefix=pt-br');
+}
+.image-6 {
+    background-image: url('https://universoheroico.com.br/wp-content/uploads/2022/03/Comissario-Gordon-e-o-Batman.jpg');
+}
+.image-7 {
+    background-image: url('https://sm.ign.com/ign_br/screenshot/default/charada-batman-filme_71j7.jpg');
+}
+.image-8 {
+    background-image: url('https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/04/12/1797866254-the-batman-penguin-pinguim.jpg');
+}
+.image-9 {
+    background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/ae8f25ca-9984-11ec-aa6e-9587410378a2/charada-paul-dano.jpg');
+}
+.image-10 {
+    background-image: url('https://radiomixfm.com.br/wp-content/uploads/2022/01/Novo-video-de-The-Batman-revela-o-vilao-Charada.png');
+}
+.image-11 {
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg?w=1200&h=675&crop=1');
+}
+.image-12 {
+    background-image: url('https://johto.legiaodosherois.com.br/wp-content/uploads/2022/02/legiao_qS9M75JQNAnV.png');
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+width: 60%;
+}
+
+ul {
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+
+li {
+list-style: none;
+color: aliceblue;
+cursor: pointer;
+font-size: 19px;
+transition: .5s;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color:red
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color:#fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.user {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.user:hover {
+    transform: scale(1.02);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 5ren 0 5rem 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px
+}
+
+.card{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    border: solid;
+    border-color: white;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.comentarios {
+    color: white;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        width: 320px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
