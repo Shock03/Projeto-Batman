@@ -1,1 +1,1 @@
-alert ('ATENÇÃO!! Devido a hospedagem não ser paga, a terceira imagem da HOME e a quinta imagem da sessão de FOTOS, estão bugadas. Agradecemos a compreensão.')
+alert ('ATENÇÃO!! Devido a um erro inesperado no servidor, a terceira imagem da HOME e a quinta imagem da sessão de FOTOS, estão bugadas. Logo estaremos corrigindo. Agradecemos a compreensão.')
