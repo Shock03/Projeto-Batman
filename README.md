@@ -1,3 +1,7 @@
+<img src="./images/Mockup Batman Project.jpg">
+<div align=center>
+</div>
+
 # 🖥️ BATMAN - Bilheteria.com
 Projeto prático ultilizando HTML5, CSS3 e JavaScript. O objetivo do projeto é criar um site que simula uma bilheteria para o novo filme do Batman. Com isso, também foi criado as navegações para a aba de CONTATO, FOTOS e COMENTÁRIOS reais a respeito do filme.
 Todo o projeto se deu tendo em vista a fixação do conhecimento nas tecnologias citadas acima.
